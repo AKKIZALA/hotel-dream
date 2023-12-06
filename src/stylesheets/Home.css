@@ -1,0 +1,36 @@
+
+#home .item img{
+    width:100vw;
+    height:26rem;
+    object-fit:cover;
+    position: relative;
+}
+#home .text{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: #fff;
+}
+#home .text span {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+#home .flex{
+    display: flex;
+    gap: 1rem;
+}
+#home .flex button{
+    color: #fff;
+    background-color:#5db709 ;
+    padding: .4rem .7rem;
+    border-color: #fff;
+    cursor: pointer;
+}
+#home .flex button:first-child:hover{
+    background-color: transparent;
+}
+#home .flex button:last-child{
+    background-color: transparent;
+}.flex button:last-child:hover{
+    background-color: #5db709;
+}

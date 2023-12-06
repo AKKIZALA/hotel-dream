@@ -1,0 +1,130 @@
+#room{
+    margin: 0 3rem;
+    overflow-x: hidden;
+    position: relative;
+}
+.explore h1{
+position: absolute;
+font-size: 3rem;
+opacity: 0.2;
+font-family: serif;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1rem;
+left:4%;
+}
+.explore h2{
+    font-size: 2rem;
+    position: relative;
+    padding-top:1rem;
+    font-family: serif;
+    font-weight: 600;
+}
+.explore p{
+    margin: 1rem 0;
+}
+#room .item{
+    width: 19.5rem;
+    height: 22rem;
+    background-color:whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: .5rem;
+   
+}
+#room .item img{
+    width: 100%;
+    height: 12rem;
+}
+#room .info{
+    padding: 0 .6rem;
+}
+#room .info div:first-child{
+    margin: 0.3rem 0;
+    font-weight: 600;
+    width: fit-content;
+}
+#room .info div:nth-child(2){
+margin: .3rem 0;
+}
+#room .info .bx{
+    color: #5db709;
+} 
+
+.rooms .btn-box{
+    display: flex;
+    gap: 1.3rem;
+}
+.rooms .btn-box button{
+    color: #fff;
+    background-color: #5db709;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    align-self: center;
+    border:none;
+    cursor: pointer;
+}
+.rooms .btn-box button:hover{
+    background-color:#7fc142 ;
+}
+.rooms p{
+    font-size: .8rem;
+}
+.prize h2{
+    font-size: 1.5rem;
+    color: #5db709;
+}
+.prize p{
+    font-weight: 600;
+}
+.owl-theme .owl-nav{
+    width: fit-content;
+    position: absolute;
+    top: -13%;
+    right: 5%;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    #room .item{
+            width: 20rem;
+            height: 29rem;
+    }
+    #room .item img{
+        width: 100%;
+        height: 17rem;
+    }
+    #room .info{
+        padding: 0 0.9rem;
+        margin-top: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+    }
+    #room .info div:first-child{
+        font-size: 1.2rem;
+    }
+    #room .explore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #room .explore h1{
+        left: 15%;
+        top: 0%;
+    }
+        
+}
+
+@media only screen and (min-width: 768px){
+    #room .explore{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #room .explore h1{
+        left: 33%;
+        top: 2%;
+    }
+}

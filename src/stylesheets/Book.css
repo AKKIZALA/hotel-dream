@@ -1,0 +1,253 @@
+#book {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#book section:first-child {
+    background-color: #282828;
+    height: 7rem;
+}
+
+#book section:first-child h2 {
+    margin-right: 0.9rem;
+}
+
+#book form h2,
+form h2 span {
+    font-family: serif;
+    color: #fff;
+    text-align: center;
+}
+
+#book form h2 span {
+    color: #5db709;
+}
+
+#book form .inputs {
+    display: flex;
+    gap: .5rem;
+
+}
+
+#book section form {
+    width: 100%;
+    height: 100%;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#book section form input {
+    padding: 0.5rem 0.6rem;
+}
+
+#book form button {
+    padding: 0.5rem 0.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #5db709;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#book section:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.intro-img img {
+    width: 27rem;
+    height: 25rem;
+    padding: 2rem;
+    object-fit: contain;
+}
+
+#book .intro {
+    padding: 0 5rem;
+}
+
+.intro h2 {
+    font-size: 1.9rem;
+    position: relative;
+    font-family: serif;
+}
+
+.intro h1 {
+    font-size: 5rem;
+    opacity: 0.3;
+    font-family: serif;
+    position: absolute;
+    right: 60%;
+}
+
+.resort {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+#book section:last-child button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    background-color: #5db709;
+}
+
+@media only screen and (max-width:376px) {
+    #book section:first-child {
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #book section:first-child form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #book section:first-child .inputs {
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+    }
+
+    #book section:last-child {
+        margin-top: 2rem;
+    }
+
+    #book section:last-child {
+        flex-direction: column;
+    }
+    #book section:last-child .intro {
+        text-align: center;
+    }
+    
+    #book section:last-child .intro h1 {
+        top: 35%;
+        left: 13%;
+        font-size: 4rem;
+    }
+    
+    #book section:last-child .intro .p {
+        width: 21rem;
+    }
+    #book .intro-img img{
+        padding: 0 2rem;
+        margin-top: -3rem;
+    }
+}
+
+
+ 
+@media (max-width:554px) {
+    #book section:first-child {
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #book section:first-child form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #book section:first-child .inputs {
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+    }
+
+    #book section:last-child {
+        margin-top: 2rem;
+    }
+
+    #book section:last-child {
+        flex-direction: column;
+    }
+    #book section:last-child .intro {
+        text-align: center;
+    }
+    
+    #book section:last-child .intro h1 {
+        top: 35%;
+        left: 13%;
+        font-size: 4rem;
+    }
+    
+    #book section:last-child .intro .p {
+        width: 21rem;
+    }
+    #book .intro-img img{
+        padding: 0 2rem;
+        margin-top: -3rem;
+    }
+   
+} 
+
+
+@media only screen and (min-width: 768px){
+    #book form .inputs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #book .intro{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    #book section:first-child{
+        height: 9rem;
+    }
+    #book section:last-child{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+    #book section:last-child .intro h2{
+        font-size: 2rem;
+       
+    }
+    #book section:last-child .intro h1{
+        right: 30%;
+        top: 17%;
+    }
+    #book .intro{
+        display: flex;
+        align-items: center;
+    }
+    #book .intro button{
+        width: 15%;
+    }
+    .intro-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: .6rem;
+    }
+    .intro-img img{
+        width:100%;
+        height:95%;
+        padding: 0.6rem;
+
+    }
+
+}
+
+
+
